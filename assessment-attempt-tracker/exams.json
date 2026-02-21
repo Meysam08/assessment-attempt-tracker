@@ -1,0 +1,47 @@
+﻿{
+  "profiles": [
+    {
+      "id": "assessment-2025-general",
+      "title": "Assessment 2025 General Science",
+      "subject": "General Science",
+      "year": "2025",
+      "answers_file": "answers.json",
+      "duration_seconds": 10800,
+      "default_scoring": {
+        "correct": 3,
+        "wrong": -1,
+        "blank": 0
+      },
+      "sections": {
+        "English": [1, 25],
+        "Mathematics": [26, 45],
+        "Special 1": [46, 55],
+        "Special 2": [56, 75],
+        "Special 3": [76, 95],
+        "Special 4": [96, 115]
+      }
+    },
+    {
+      "id": "assessment-2024-general",
+      "title": "Assessment 2024 General Science",
+      "subject": "General Science",
+      "year": "2024",
+      "answers_file": "answers_2024.json",
+      "duration_seconds": 10200,
+      "default_scoring": {
+        "correct": 3,
+        "wrong": -1,
+        "blank": 0
+      },
+      "sections": {
+        "English": [1, 25],
+        "Mathematics": [26, 45],
+        "Special 1": [46, 55],
+        "Special 2": [56, 75],
+        "Special 3": [76, 95],
+        "Special 4": [96, 115]
+      }
+    }
+  ]
+}
+
